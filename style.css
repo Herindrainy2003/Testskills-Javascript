@@ -1,0 +1,65 @@
+/* Styles pour le container de toasts */
+#toast-container {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 9999;
+}
+
+/* Styles pour la div de la note */
+#note {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Styles pour la carte */
+.card {
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    max-width: 400px;
+    margin: 0 auto;
+    margin-top: 140px;
+}
+
+/* Styles pour les boutons */
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Styles pour les champs de texte */
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+/* Styles pour la question */
+#question {
+    margin-top: 20px;
+}
+
+/* Styles pour le message de félicitations */
+#scorefinale{
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+    color: #28a745; /* Couleur verte */
+}
